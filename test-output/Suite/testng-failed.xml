@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.CreateCustomerTest">
+        <methods>
+          <include name="m3"/>
+        </methods>
+      </class> <!-- Test.CreateCustomerTest -->
+      <class name="Test.ActitimeLeaveTypePage">
+        <methods>
+          <include name="m2"/>
+        </methods>
+      </class> <!-- Test.ActitimeLeaveTypePage -->
+      <class name="Test.Actitime_Loginpage_Test">
+        <methods>
+          <include name="m"/>
+        </methods>
+      </class> <!-- Test.Actitime_Loginpage_Test -->
+      <class name="Test.Actitime_settings_Test">
+        <methods>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- Test.Actitime_settings_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
